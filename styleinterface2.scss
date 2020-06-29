@@ -45,12 +45,14 @@ a{
     hr {
         border: 2px; background:white; height: 1px;
     }
+    td{
+        border-bottom: solid 2px white;
+      
+       }
     table {
         border-spacing: 30px;
         width: 100%;
-       tr{
-        border-bottom: solid, 1px;
-       }
+      
     }
     
     a {

@@ -19,6 +19,11 @@ p{
 section{
     margin: 50px;
 }
+a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    float: right;
+}   
 @media only screen and (max-width: 748px) {
         .container {
             display: grid;

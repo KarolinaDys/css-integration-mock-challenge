@@ -74,13 +74,13 @@ a hr {
   height: 1px;
 }
 
+a td {
+  border-bottom: solid 2px white;
+}
+
 a table {
   border-spacing: 30px;
   width: 100%;
-}
-
-a table tr {
-  border-bottom: solid, 1px;
 }
 
 a a {
