@@ -29,11 +29,11 @@ hr {
 }
 
 table {
-  border-spacing: 30px;
+  border-spacing: 0px 30px;
   width: 100%;
 }
 
-table tr {
+table td {
   border-bottom: white solid 1px;
 }
 
