@@ -1,0 +1,92 @@
+body {
+  background-color: white;
+}
+
+.cointener {
+  background-color: #318ecc;
+  color: white;
+  margin: 20px;
+  padding: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 100px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+hr {
+  border: 2px;
+  background: white;
+  height: 1px;
+}
+
+table {
+  border-spacing: 30px;
+  width: 100%;
+}
+
+table tr {
+  border-bottom: white solid 1px;
+}
+
+a {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  float: right;
+  padding: 5px;
+}
+
+a body {
+  background-color: white;
+}
+
+a .cointener {
+  background-color: #318ecc;
+  color: white;
+  margin: 20px;
+  padding: 50px;
+  font-family: "Open Sans", sans-serif;
+}
+
+a p {
+  font-size: 100px;
+}
+
+a h4 {
+  font-size: 20px;
+}
+
+a h6 {
+  font-size: 15px;
+}
+
+a hr {
+  border: 2px;
+  background: white;
+  height: 1px;
+}
+
+a table {
+  border-spacing: 30px;
+  width: 100%;
+}
+
+a table tr {
+  border-bottom: solid, 1px;
+}
+
+a a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  float: right;
+  color: white;
+}
+/*# sourceMappingURL=styleinterface2.css.map */
