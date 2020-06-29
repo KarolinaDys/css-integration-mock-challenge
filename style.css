@@ -1,0 +1,73 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  width: auto;
+  height: 150px;
+}
+
+h4 {
+  font-size: 24px;
+  color: #3a7e38;
+  font-weight: 550;
+}
+
+p {
+  font-weight: 550;
+}
+
+.container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+section {
+  margin: 50px;
+}
+
+@media only screen and (max-width: 748px) {
+  .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  .one {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-column: 1/6;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  .two {
+    -ms-grid-column: 6;
+    -ms-grid-column-span: 6;
+    grid-column: 6/12;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  .three {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 5;
+    grid-column: 1/6;
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+  .four {
+    -ms-grid-column: 6;
+    -ms-grid-column-span: 6;
+    grid-column: 6/12;
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .container {
+    display: table-column;
+  }
+}
+/*# sourceMappingURL=style.css.map */
