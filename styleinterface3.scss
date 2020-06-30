@@ -1,0 +1,59 @@
+
+.box{
+    font-family: "Open Sans", sans-serif;
+    display: inline-flex;
+    .image{
+        width: 50%;
+        height: auto;
+        img{
+            object-fit: scale-down;
+            width: 100%;
+            height: 80%;
+        }
+    }
+    .text{
+        margin-left: 20px;
+        h1{
+            font-size: 45px;
+        }
+        p{
+            font-size: 30px;
+            color: grey;
+        }
+    }
+    .smallbox{
+        display: inline-flex;
+        position: absolute;
+		bottom: 0px;
+        width:100%;
+        height: 0px;
+    img{
+        height: auto;
+        width: 70%;
+        border-radius: 50%;
+    }
+    .smalltext{
+    
+        h5{
+            font-size: 25px;
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+           }
+        p{
+            font-size: 25px;
+            color: grey;
+            padding-top: 0px;
+            margin-top: 0px;
+        }
+    }
+    .smallicon{
+        margin-left: 200px;
+        margin-top: 50px;
+        i{
+            font-size: 25px;
+            color: grey;
+        }
+    
+    }
+  }
+}
